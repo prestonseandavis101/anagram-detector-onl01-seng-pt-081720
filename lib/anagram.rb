@@ -3,6 +3,8 @@ class Anagram
   
   def initialize(word)
     @word = word
+    
+    array = []
  
   end
 end
