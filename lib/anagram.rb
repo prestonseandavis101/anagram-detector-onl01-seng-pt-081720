@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(word)
-    word.detect(word)
+    word
   end
   
 end
