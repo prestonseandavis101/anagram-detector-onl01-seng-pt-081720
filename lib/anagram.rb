@@ -9,5 +9,5 @@ class Anagram
   def match(array)
     array.each do |x| x.detect
   end
-  
+end
 end
