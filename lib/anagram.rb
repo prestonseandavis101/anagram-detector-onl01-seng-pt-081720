@@ -10,6 +10,5 @@ class Anagram
     array.each do |x|
       x.split.sort == word.split.sort
       end
-array 
     end
 end
