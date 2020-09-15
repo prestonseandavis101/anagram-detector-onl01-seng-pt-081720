@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(array)
-    array.each do |x| x.match
+    array.each do |x| x.sort
   end
 end
 end
