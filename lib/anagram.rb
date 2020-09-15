@@ -1,10 +1,8 @@
 class Anagram
-  attr_accessor :anagram 
+  attr_accessor :word
   
-  def initialize(anagram)
-  @anagram = anagram
-  
-  diaper = Anagram.new("diaper")
-  diaper.match
+  def initialize(word)
+    @word = word
+ 
   end
 end
